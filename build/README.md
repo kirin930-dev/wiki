@@ -14,9 +14,8 @@ repo sync -f --force-sync --no-clone-bundle --no-tags -j$(nproc --all)
 ```
 ---
 
-### 4. Set up the device-specific repositories.
+### 4. Set up the device-specific repositories. Here, we build for the Huawei MediaPad M2 10.0 (liszt).
 ```bash
-git clone https://github.com/liszt-dev/patches -b cm-14.1 patches
 git clone https://github.com/liszt-dev/android_hardware_debugging -b cm-14.1 hardware/debugging
 git clone https://github.com/liszt-dev/android_device_huawei_liszt -b cm-14.1 device/huawei/liszt
 git clone https://github.com/liszt-dev/android_kernel_huawei_liszt -b cm-14.1 kernel/huawei/liszt
@@ -26,7 +25,7 @@ git clone https://github.com/liszt-dev/android_vendor_huawei_liszt -b cm-14.1 ve
 
 ### 5. Apply the device-specific ROM code patches.
 ```bash
-cd patches && ./install.sh
+cd device/huawei/liszt/patches && ./install.sh && cd ../../../../
 ```
 ---
 
@@ -57,4 +56,4 @@ mka bacon
 > **Note:** You might have to adjust the memory assignments depending on your hardware specifications.
 ---
 
-### 9. Done! [Return home](https://github.com/liszt-dev/wiki/blob/master/README.md)
+### 9. Done! [Return home](https://github.com/kirin930-dev/wiki/blob/master/README.md)

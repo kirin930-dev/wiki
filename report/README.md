@@ -4,9 +4,9 @@
 ---
 
 ### 2. Steps on how to file a proper bug report
-**2.1.** Search the [issue section](https://github.com/liszt-dev/wiki/issues) to make sure the bug hasn't already been reported.
+**2.1.** Search the [issue section](https://github.com/kirin930-dev/wiki/issues) to make sure the bug hasn't already been reported.
 ######
-**2.2.** Open a [new issue](https://github.com/liszt-dev/wiki/issues/new) and describe the bug in as much detail as possible, including steps to reproduce it.
+**2.2.** Open a [new issue](https://github.com/kirin930-dev/wiki/issues/new) and describe the bug in as much detail as possible, including steps to reproduce it.
 ######
 **2.3.** Attach relevant screenshots or log files (e.g. logcat or dmesg), if it's possible.
 ```bash
@@ -19,4 +19,4 @@ adb shell dmesg > dmesg.txt
 ######
 ---
 
-### 3. Done! [Return home](https://github.com/liszt-dev/wiki/blob/master/README.md)
+### 3. Done! [Return home](https://github.com/kirin930-dev/wiki/blob/master/README.md)

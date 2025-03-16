@@ -6,7 +6,7 @@
 ### 2. It is therefore highly recommended to backup your stock firmware before flashing any Custom ROM. 
 ---
 
-### 3. If you haven't done it already, install [TWRP recovery](https://github.com/liszt-dev/research/blob/master/twrp-3.1.1-liszt.img) right now.
+### 3. If you haven't done it already, install [TWRP recovery](https://github.com/kirin930-dev/wiki/blob/master/installation/twrp-3.1.1-hi3635.img) right now.
 **3.1.** Download the TWRP recovery to your local PC.
 ######
 **3.2.** Ensure your device is charged enough and power it off completly.
@@ -19,7 +19,7 @@ fastboot devices
 ```
 **3.5.** If it is listed by ADB, proceed with flashing the TWRP image.
 ```bash
-fastboot flash recovery twrp-3.1.1-liszt.img
+fastboot flash recovery twrp-3.1.1-hi3635.img
 ```
 **3.6.** If everything was successful, you can reboot your device.
 ```bash
@@ -61,4 +61,4 @@ Cache
 > **Note:** The first boot might take a few minutes, so don't freak out.
 ---
 
-### 6. Done! [Return home](https://github.com/liszt-dev/wiki/blob/master/README.md)
+### 6. Done! [Return home](https://github.com/kirin930-dev/wiki/blob/master/README.md)
